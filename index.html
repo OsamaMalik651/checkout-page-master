@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,700,1,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,1,0"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Checkout Page</title>
+  </head>
+  <body>
+    <div class="checkout">
+      <div class="header">
+        <h1>Checkout</h1>
+      </div>
+      <div class="form">
+        <div class="form__inputs">
+          <div class="contact__information">
+            <h6>Contact Information</h6>
+            <div class="input__div">
+              <label for="email">E-mail</label>
+              <div class="input">
+                <span class="material-symbols-outlined"> mail </span>
+                <input type="text" placeholder="Enter your email..." />
+              </div>
+            </div>
+            <div class="input__div">
+              <label for="phone">Phone</label>
+              <div class="input">
+                <span class="material-symbols-outlined"> call </span>
+                <input type="text" placeholder="Enter your phone..." />
+              </div>
+            </div>
+          </div>
+          <div class="contact__information">
+            <h6>Shipping address</h6>
+            <div class="input__div">
+              <label for="fullName">Full Name</label>
+              <div class="input">
+                <span class="material-icons"> account_circle </span>
+
+                <input
+                  id="fullName"
+                  type="text"
+                  placeholder="Your name..."
+                  value="Rodney Cotton"
+                />
+              </div>
+            </div>
+            <div class="input__div">
+              <label for="address">Address</label>
+              <div class="input">
+                <span class="material-icons"> home </span>
+                <input id="address" type="text" placeholder="Your address..." />
+              </div>
+            </div>
+            <div class="input__div">
+              <label for="city">City</label>
+              <div class="input">
+                <span class="material-icons"> location_city </span>
+                <input id="city" type="text" placeholder="Your city..." />
+              </div>
+            </div>
+            <div class="smallInputs">
+              <div class="input__div">
+                <label for="country">Country</label>
+                <div class="input">
+                  <span class="material-icons"> home </span>
+                  <input
+                    id="country"
+                    type="text"
+                    placeholder="Your country..."
+                  />
+                  <span class="material-icons"> expand_more </span>
+                </div>
+              </div>
+              <div class="input__div">
+                <label for="postalCode">Postal code</label>
+                <div class="input">
+                  <span class="material-icons"> home </span>
+                  <input
+                    id="postalCode"
+                    type="text"
+                    placeholder="Your postalCode..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="checkbox">
+            <span class="material-symbols-outlined">
+              check_box_outline_blank
+            </span>
+            <p>Save this information for next time</p>
+          </div>
+          <div class="continue">
+            <button>Continue</button>
+          </div>
+        </div>
+        <div class="checkoutCard">
+          <div class="productCard">
+            <img src="./photo1.png" alt="" />
+            <div class="productDetails">
+              <h1>Vintage Backbag</h1>
+              <span>
+                <p>$54.99</p>
+                <p>$94.99</p>
+              </span>
+              <div class="addProduct">
+                <span class="material-symbols-outlined"> remove </span>
+                <p>1</p>
+                <span class="material-symbols-outlined"> add </span>
+              </div>
+            </div>
+          </div>
+          <div class="productCard">
+            <img src="./photo2.png" alt="" />
+            <div class="productDetails">
+              <h1>Levi Shoes</h1>
+              <span>
+                <p>$74.99</p>
+                <p>$124.99</p>
+              </span>
+              <div class="addProduct">
+                <span class="material-symbols-outlined"> remove </span>
+                <p>1</p>
+                <span class="material-symbols-outlined"> add </span>
+              </div>
+            </div>
+          </div>
+          <div class="cartDetails">
+            <hr />
+            <span
+              ><p>Shipping</p>
+              <p>$19</p></span
+            >
+            <hr />
+            <span
+              ><p>Total</p>
+              <p>$148.98</p></span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="footer__Text">
+        <p>created by <u>Osama</u> - devchallenges.io</p>
+      </div>
+    </div>
+  </body>
+</html>
